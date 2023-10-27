@@ -10,8 +10,8 @@ function func() {
         case "Google":
             document.url.action = "https://www.google.co.jp/search";
             break;
-        case "Weather":
-            document.url.action = "https://weather.yahoo.co.jp/weather/search/?p=";
+        case "Images":
+            document.url.action = "https://www.bing.com/images/search?q=";
             break;
         case "YouTube":
             document.url.action = "https://www.youtube.com/results?search_query=";

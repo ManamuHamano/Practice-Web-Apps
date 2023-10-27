@@ -1,0 +1,60 @@
+<!--この枠で囲った文字はコメントアウト-->
+
+<!--DOCTYPE宣言（このテキストファイルがhtmlであることを明示する記述）-->
+<!DOCTYPE html>
+
+<!--htmlタグ&言語設定（htmlファイルは必ずこのタグで囲む）-->
+<html lang="ja">    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-widh, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="search-form-006.css">
+        <link rel="stylesheet" href="radio-002.css">
+        <title>My Search Desk</title>
+        <script language="JavaScript" src="main.js" type="text/JavaScript">
+        </script>
+    </head>
+    <body>
+        <h1 style="text-align: center;">My Search Desk</h1>
+        <p style="text-align: center;">Testing Environment</p>
+        <form method=get action="" name="url" class="search-form-005">
+            <label>
+            <input type=text placeholder="Search Word" name=q size=31 maxlength=255 value="">
+            </label>
+            <button type="button" onclick="func()" aria-label="検索"></button>
+        </form>
+        <br>
+        <fieldset>
+            <input id="item-1" class="radio-inline__input" type="radio" name="select" value="Google" checked="checked"/>
+            <label class="radio-inline__label" for="item-1">Google</label>
+            <input id="item-2" class="radio-inline__input" type="radio" name="select" value="Weather"/>
+            <label class="radio-inline__label" for="item-2">Weather</label>
+            <input id="item-3" class="radio-inline__input" type="radio" name="select" value="YouTube"/>
+            <label class="radio-inline__label" for="item-3">YouTube</label>
+            <input id="item-4" class="radio-inline__input" type="radio" name="select" value="Map"/>
+            <label class="radio-inline__label" for="item-4">Map</label>
+          </fieldset>
+    </body>
+</html>
+
+
+
+<!--
+
+    <table bgcolor="#FFFFFF"><tr><td>
+    <input type="submit" name="submit" value="検索">
+    <img src="http://www.google.com/logos/Logo_40wht.gif" border="0" alt="Google" align="absmiddle"></a>
+            <label><input type="radio" name="select" value="Google" checked>Google</label>
+        <label><input type="radio" name="select" value="Bing">Bing</label>
+        <label><input type="radio" name="select" value="YouTube">YouTube</label>
+        <label><input type="radio" name="select" value="Map">Map</label>   
+                <fieldset class="radio-002">
+
+            </fieldset>
+    
+    
+    <input type=submit name=btnG value="Google 検索">
+    </td></tr></table>
+    </form>
+-->

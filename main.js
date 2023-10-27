@@ -11,7 +11,7 @@ function func() {
             document.url.action = "https://www.google.co.jp/search";
             break;
         case "Images":
-            document.url.action = "https://www.bing.com/images/search?q=";
+            document.url.action = "https://www.bing.com/images/search";
             break;
         case "YouTube":
             document.url.action = "https://www.youtube.com/results?search_query=";
